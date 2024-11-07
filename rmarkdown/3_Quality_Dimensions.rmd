@@ -1,0 +1,487 @@
+---
+title: "Quality dimensions"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+format:
+  html:
+    embed-resources: true
+    css: QB.css
+    html-table-processing: none
+---
+
+```{r global-options, include=FALSE}
+# Set echo=false for all chunks
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+---
+
+The question bank includes data quality themes as defined by the Data Management Association UK (DAMA) dimensions outlined in [The Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework#Data-quality-dimensions). These dimensions and definitions used are the same as those outlined in our [Administrative Data Quality Framework (ADQF)](https://analysisfunction.civilservice.gov.uk/policy-store/quality-of-administrative-data-in-statistics/). The dimensions covered are: 
+
++ accuracy 
+
++ validity  
+
++ completeness  
+
++ uniqueness 
+
++ consistency 
+
++ timeliness
+
+We have used these because they were developed by experts in data quality to assess the fitness for purpose of data. Finding which dimensions are important for you will help you make decisions around how fit for purpose the data are for your needs. 
+
+In future publications of this question bank, we intend to include questions based on relevant selected principles from the [European Statistics Code of Practice](https://ec.europa.eu/eurostat/web/quality/european-quality-standards/european-statistics-code-of-practice). The principles covered will be:
+
++ relevance: coverage, content, purpose and collection  
+
++ accessibility and clarity: accessing the data, data format, availability of supporting information, quality and sufficiency of metadata, illustrations and accompanying advice  
+
+Before going into the questions for each data quality dimension, we have provided some general questions for you, which can be used to ensure that you have a fundamental understanding of the data and its’ quality.  
+
+## Questions to ask to gain insights into the data's quality in general 
+
+
++ How are the data from this dataset collected? For example, through public contact with services over the phone, registration forms, etc.   
+
+
++ What organisation(s) collects the data? 
+
+
++ Are there different organisations which collect different data or variables in the dataset?  For example, where one organisation is responsible for collecting income-related data, and another organisation is responsible for collecting demographic data, and this data is combined to create one composite dataset 
+
+
++ If so, which data is collected by which organisation?
+
+
++ Is the data collected differently? 
+
+
++ Does this have an impact on the quality? 
+
+  
++ How do suppliers quality assure the data?   
+
+ 
++ Are there any known quality issues?   
+
+ 
++ What thresholds have the suppliers put in place regarding the data's quality? For example, an acceptable number of duplicate records, or an acceptable amount of missing data.   
+
+ 
++ How is the quality for this dataset documented?   
+
+ 
++ Are there any supplementary documents related to the dataset that can be shared? For example, a data dictionary, a metadata list. 
+
+ 
++ Are there training manuals related to the work that can be shared? For example, for coding, updating or maintaining the dataset.
+
+<br>
+
+# Accuracy and Validity
+
+
+
+## Accuracy and validity definition 
+
+Administrative data accuracy refers to how well the data match reality - do the data capture what you are trying to measure? 
+
+Valid data is defined as the extent to which the data conform to the expected format, type, and range. For example, an email address must have an ‘@’ symbol. 
+
+
+## Questions to ask to gain insights into accuracy of data  
+
+
+
++ How accurate are the supplied data? 
+
+ 
+
++ How well do the data meet the statistical use? 
+
+ 
+
++ How accurate are the items, or variables in the supplied data? 
+
+ 
+
++ How accurate are the units, or records in the supplied data? 
+
+ 
+
++ What are the accuracy issues in the supplied data? 
+
+ 
+
++ If there are accuracy issues, how are they identified? For example, through a formal auditing process, or an automatic flagging system. 
+
+ 
+
++ What methods are implemented by the suppliers to prevent any accuracy issues? For example, checks built into the data collection instrument. 
+
+ 
+
++ If there are accuracy issues, how are they resolved by the suppliers? And to which variables and types of records? 
+
+ 
+
++ What data accuracy issues are not addressed? 
+
+ 
++ Why are the issues not addressed?   
+
+ 
++ What happens to data accuracy issues that are not addressed? For example, logged or reported to a specific team.  
+
+
++ How are users of the data informed about these data accuracy issues? 
+
+ 
+
+### Invalid entry questions
+
+
++ What are the types of invalid data entries in the data? 
+
+ 
+
++ How many invalid entries are there in the data? 
+
+ 
+
++ What variables have invalid data entries? 
+
+ 
+
++ What types of records have invalid data entries? 
+
+ 
+
++ What methods are used to identify invalid data entries? 
+
+ 
+
++ What methods are used to resolve invalid data entries? 
+
+ 
+
+### Error, typos or mistakes questions
+
+
++ What kinds of errors, typos or mistakes, are there in the data? 
+
+
++ Which variables have typos, errors or mistakes? 
+
+
++ Which types of records have typos, errors or mistakes? 
+
+ 
++ What, are the causes of these errors, typos or mistakes in the data? 
+
+ 
++ How are errors, typos or mistakes identified in the data? 
+
+ 
++ How are errors, typos or mistakes in the data resolved? 
+
+
+<br>
+
+# Completeness and Uniqueness
+
+
+
+## Completeness definition 
+ 
+Completeness describes the degree to which all values within each variable are present (or absent of blank, null or empty values). Completeness applies both at data item (variable) level, and unit (record) level. At a data item level, you may have an individual’s value missing, for example a date of birth, from their record within a dataset. Alternatively, at a unit level, a full record may be missing; that individual is missing from the dataset entirely. 
+
+
+Depending on the completeness of your data there may be under-coverage or over-coverage. Please see [the ‘Completeness’ section of the Administrative Data Quality Framework](https://best-practice-and-impact.github.io/admin-data-quality-stats/departments.html#completeness) for more information on over and under-coverage. 
+
+
+To assess completeness, you will need to identify how many items or records are missing versus present. This dimension is sometimes described in terms of “missingness” rather than “completeness”, but the quality issue is the same. Data are ‘complete’ when all the data required for your purposes are both present and available for use. This does not mean your data needs 100% of the fields to be complete, but that the values and units you need are present. A ‘complete’ dataset may still be inaccurate if it has values that are not correct. 
+ 
+## Questions to ask to gain insights into completeness of data
+
+### Unit completeness questions
+
+
++ How complete or incomplete are the data? 
+
+ 
++ How many records in the data are considered complete, or to have good coverage?  
+
+ 
++ What types of records need to be in the data to be considered complete? 
+
+ 
++ What types of records are missing from the data where they should be included? 
+
++ Why are they missing? 
+
+ 
++ What types of records are included in the data where they should not be? 
+
+ 
++ Why are these included? 
+
+ 
++ How are records missing from the data identified as missing? 
+
+ 
++ How are records missing in the data resolved? 
+
+ 
++ How are records, that are wrongly included in the data, identified? 
+
+
++ How are records, that are wrongly included in the data, resolved? 
+
+ 
+Unit imputation is when missing data are replaced with a record or unit.  Are any records in the data supplied, imputed records? 
+
++ Why are these records imputed? 
+
+ 
++ How are they imputed? 
+
+ 
++ What changes have been made to exclusion and inclusion criteria in the data over time? For example, due to policy changes. 
+
+
+
+### Item completeness questions
+
+
++ Which variables or values have missing data? 
+
+ 
++ If there are missing data in variables or values, are there any particular types of records that have data within variables or values missing? 
+
+ 
++ How are missing data within variables or values identified? 
+
+ 
++ How are missing data within variables or values resolved? 
+
+ 
++ How are data, variables or values that are wrongly included in the dataset, identified? 
+
+ 
++ How are data, variables or values that are wrongly included in the dataset, resolved? 
+
+ 
+Item imputation is when missing data are replaced with a value or variable. Which variables, or values in the data are imputed? 
+
++ Why are these variables, or values imputed? 
+
+ 
++ How are they imputed? 
+
+ 
+<br>
+
+
+## Uniqueness definition
+
+Uniqueness describes the degree to which there is no duplication in records. This means that the data contains only one record for each entity it represents, and each value is stored only once. 
+
+ 
+Data are unique if it appears only once in a dataset. A record can be a duplicate even if it has some fields that are different. For example, a person may have two patient records with matching information in some fields (for example, name and date of birth) but may have different addresses and contact numbers in each record, therefore they are treated as two separate people. Depending on what you are using the data for, this may or may not be a uniqueness issue. If you want to know the total number of visits for every patient, this is not a problem. However, if you want to know how many patients you have on your roster, you could be counting the same person twice. As such, it is important to take uniqueness into account and into context when assessing the quality for and when combining datasets as it can impact the coverage of the data. 
+
+## Questions to ask to gain insights into uniqueness of data
+
+
++ How often, do identical records appear in the data more than once? 
+
+ 
+
++ Should there or shouldn’t there be records appearing more than once in the data? 
+
+ 
+
++ If records appear more than once, what, is the reason? 
+
+ 
+
++ How unique are the records in the data? 
+
+ 
+
++ What type of records appear in the data more than once?  
+
+ 
+
++ What does each row in the dataset represent?   
+
+ 
+
++ How is each unique record identified? For example, a record ID number.   
+
+ 
+
++ What measures are carried out to prevent records appearing more than once in the data during data collection?  
+
+ 
+
++ What measures are carried out to prevent records appearing more than once in the data during data processing? 
+
+ 
+
++ How are records that appear more than once in the data identified? 
+
+ 
+
++ What do duplicate records look like in the data? 
+
+ 
+
++ How are records that appear more than once in the data resolved? 
+
+ 
+
+<br>
+
+# Consistency and Timeliness
+
+## Consistency definition
+
+Consistency is achieved when data values do not conflict with other values within a dataset or across different datasets. For example, date of birth for the same person should be recorded as the same date within the same dataset and between datasets. It should also match the age recorded for that person. Their postcode should also not conflict with their address, etc.  Another example may be where two people who are each others’ spouses, should both have the same marital status recorded.  
+
+## Questions to ask to gain insights into consistency of data
+
+
++ How consistent, are the data between variables? 
+
+ 
++ Which variables, have inconsistent information? What is the reason for this? 
+
+ 
++ Which types of records, if any, have inconsistent information? 
+
+ 
++ What is the reason for this? 
+
+ 
++ If you have a composite dataset (dataset compiled from different sources), how consistent, are the data across the different sources? 
+
+ 
++ How consistent, are the data over time? 
+
+
++ Have there been any changes to the way the data are collected over time? 
+
+
++ What changes have there been to the variables over time? For example, changes to definition. 
+
+  
++ Which variables, if any, were changed? 
+
+ 
++ What is used to measure consistency or identify inconsistencies in the supplied data? 
+
+ 
++ What aspects of the data are checked for consistency? Such as, all data items, certain variables, certain time points,  
+
+ 
++ How are inconsistencies in the data resolved? 
+
+
+## Timeliness definition
+
+Timeliness refers to how well the data reflect the period they are supposed to represent. It also describes how up to date the data are. 
+
+ 
+The attributes represented in some data might stay the same over time – e.g., the day you were born does not change, no matter how much time passes. Other attributes, such as income, may change. 
+
+ 
+Your data are also ‘timely’ if the lag between their collection and their availability for your use is appropriate for your needs. Are the data available when expected and needed? Do they reflect the time they are supposed to? 
+
+
+## Questions to ask to gain insights into timeliness of data
+
++ When are the data collected? For example, constantly or over a certain timeframe? 
+
+ 
++ Up to date refers to whether the data supplied is the latest version. For example, if there are new data being collected, but is not reflected in the current data, then the data are not up to date. 
+
+ 
++ How up to date are the data at the point of it being supplied? 
+
+
++ What can impact how up to date the data are?  
+
+
+Reference dates refer to timestamps which indicate when the data have been changed. 
+
++ Are there any reference dates for each record?  
+
+ 
++ At what point of the data collection phase are reference dates produced? For example, when the data are collected, or when the data were last updated. 
+
+
++ How up to date, are the variables at the point of it being suppled?  
+
+ 
++ Which types of records, do not have up to date information in these variables? 
+
++ What methods are used to check that the data are up to date?  
+
+ 
++ What methods are carried out to resolve data if they are not up to date? 
+
+ 
++ How often are the data updated? 
+
+ 
++ What information is updated?  
+
+ 
++ Are there any time lags between the reference dates in the data and the date in which the data are supplied? 
+
+ 
++ What are the different processes by which new records are added?  
+
+
++ How often, are existing records within the data updated with new information? 
+
+ 
++ What are the different processes by which existing records are updated with new information? 
+
+ 
++ What are the different processes by which variables or values are updated with new information? 
+
+ 
++ How often are the data updated to remove records from the data?   
+
+
++ Under what circumstances are records removed from the data?   
+
+
++ What are the different processes by which unwanted records are removed? 
+
+
++ When records meet the criteria for removal, how long would it typically take for the record to be deleted from the data supplied?  
+
+
++ How often, are existing records within the data, updated to correct for any errors?   
+
+ 
++ How often, are variables within records, updated to correct for any errors? 
+
+
++ What are the different processes by which existing records are updated to correct for any errors? 
+
+
+
+<br>
