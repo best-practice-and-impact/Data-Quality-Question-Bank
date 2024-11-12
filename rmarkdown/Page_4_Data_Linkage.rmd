@@ -1,0 +1,114 @@
+---
+title: "Data Linkage"
+output:
+  html_document:
+    css: "question_bank.css"
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+```{r global-options, include=FALSE}
+# Set echo=false for all chunks
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+---
+
+### Data linkage definition
+
+Data Linkage is the process of classifying whether two or more records refer to the same entity. Entities can be anything that a dataset contains, for example, people, addresses or households. These questions are looking to understand what data linkage, if any, the data supplier carries out on the dataset you are interested in.  
+
+### Questions to ask to gain insights into data linkage 
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q109 </td>
+  <td>How, if at all, are the data linked?  </td>
+ </tr>
+
+
+
+ <tr>
+  <td align="center">  Q110 </td>
+  <td>Why is the data linkage conducted? </td>
+ </tr> 
+ 
+
+ <tr>
+  <td align="center">  Q111 </td>
+  <td>Why are these methods used to link data? </td>
+ </tr>
+ 
+
+ <tr>
+  <td align="center">  Q112 </td>
+  <td> How often are the data linkage methods changed?</td>
+ </tr> 
+ 
+
+ <tr>
+  <td align="center">  Q113 </td>
+  <td>What changes have been made?  </td>
+ </tr> 
+
+
+  <tr>
+  <td align="center">  Q114 </td>
+  <td> Why were these changes made?</td>
+ </tr>
+ 
+
+ <tr>
+  <td align="center">  Q115 </td>
+  <td>What assessments, checks or preparations, are carried out on the different datasets before data linkage occurs? </td>
+ </tr> 
+ 
+
+ <tr>
+  <td align="center">  Q116 </td>
+  <td>What variables are used to link or match the datasets?  </td>
+ </tr> 
+ 
+
+  <tr>
+  <td align="center">  Q117 </td>
+  <td>Why are these variables used? </td>
+ </tr>
+ 
+
+  <tr>
+  <td align="center">  Q118 </td>
+  <td>A match-key is created by putting together pieces of information to create unique keys that are then hashed and used for automated matching. How does your organisation use match keys? </td>
+ </tr>
+ 
+
+  <tr>
+  <td align="center">  Q119 </td>
+  <td>How is the success of these match keys evaluated? </td>
+ </tr>
+ 
+
+  <tr>
+  <td align="center">  Q120 </td>
+  <td> How are decisions made about whether records should be declared a match or a non-match? </td>
+ </tr>
+
+
+  <tr>
+  <td align="center">  Q121 </td>
+  <td> How is data linkage quality assessed?</td>
+ </tr>
+  
+ </table>
+
+<br>
