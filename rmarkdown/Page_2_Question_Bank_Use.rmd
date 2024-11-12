@@ -1,0 +1,72 @@
+---
+title: "How to use the question bank"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+```{r global-options, include=FALSE}
+# Set echo=false for all chunks
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+---
+
+## Question bank structure and how to use 
+
+
+This question bank groups questions into sections, some of which having further sub-sections. These sections and sub-sections are as follows: 
+
+ 
+
+1. Quality dimensions as defined by the Data Management Association UK (DAMA), paired into the following: 
+
+    * accuracy and validity 
+
+    * completeness and uniqueness 
+
+    * consistency and timeliness 
+
+ 
+
+2. Data linkage 
+
+
+
+These sections and their sub-sections have been chosen to give you a wide selection of questions to gain further insights into administrative data quality. According to the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/), “quality means that statistics fit their intended uses, are based on appropriate data and methods, and are not materially misleading.” 
+
+In essence, quality centers around a consideration of fitness for purpose, including: 
+
++ Are the data good enough for what I want to use it for? 
+
++ Did the statistic I produce meet the needs of the people who are using it?  
+
+<br>
+ 
+The questions in this question bank can be used to assess the different aspects of fitness for your use. Very rarely will there be data that is completely perfect for statistical and research purposes. Understanding which dimensions are important for your specific uses will help you when deciding if data are fit for purpose. To this end, the question bank has been designed to be flexible, and your approach can be tailored in proportion to your needs, for example, by making them relevant to the variables you are interested in. These questions provide a structure into assessing the data’s fitness for purpose and ensuring that you cover the key issues to help understand the data’s quality.  
+
+
+The first key step is to identify what dataset you are interested in and wish to assess using the set of questions in this question bank. You can then use the questions in this The Administrative Data Quality Question Bank (ADQQB) and tailor these to find out more about that specific dataset. 
+
+
+The Administrative Data Quality Question Bank (ADQQB) focuses on assessing quality of data at input data level. Input data level refers to the point at which your organisation receives the data. Quality at this stage refers to how well the data fits the purpose(s) you want to use them for. Essentially, this could be suitability of the data to produce statistics, or suitability of the data to carry out analysis or research. 
+
+<br>
+
+We have included questions on the [DAMA quality dimensions](https://www.gov.uk/government/news/meet-the-data-quality-dimensions) because these are dimensions that are widely used across the government to assess if data is good enough to use, or whether improvements need to be made. We have also chosen to include questions on data linkage in data collection and production as answers to these questions could supply further information and context around how the data are produced. It also provides a reminder that you should check-in regularly with the data suppliers regarding any changes that may affect the resulting data. 
+
+
+As we further develop the Administrative Data Quality Question Bank (ADQQB)  beyond the current publication, we will add further sections. These will include output data quality: "how well your ‘final’ output meets your users’ needs”. This will be done through integrating relevant dimensions from the European Statistical System’s (ESS) dimensions of quality. 
+
+
+<br>
+
+ 
+
+
