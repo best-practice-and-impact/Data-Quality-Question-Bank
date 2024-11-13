@@ -1,0 +1,82 @@
+---
+title: "Home"
+output:
+  html_document:
+    css: "question_bank.css"
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+```{r global-options, include=FALSE}
+# Set echo=false for all chunks
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+---
+
+## Background
+
+The Administrative Data Quality Question Bank (ADQQB) is a collection of specially designed questions that act as a guide to help analysts to understand the quality of their administrative data for research and statistical purposes. These questions can be used in two ways. 
+
+
+Analysts can ask the data suppliers these questions. It is strongly encouraged for analysts to communicate with data suppliers prior to undertaking any research using administrative data, to fully understand the data in question and its’ quality. 
+
+
+Analysts can also use these questions as their own guides when assessing the quality of their data.  
+
+ <br> 
+ 
+The questions have been designed to guide the analyst to do the following: 
+
++ understand the data at the point that either the analyst or organisation has acquired and accessed the administrative data  
+
++ make the right decisions on how to treat the data at the data processing and analysis phase and onwards 
+
++ determine whether the data are fit for purpose 
+
++ transparently communicate the quality of the data in statistical research and outputs 
+
+
+
+
+As such, this question bank falls within the requirements of the three principles of government statistical data Quality, as set out in the [Code of Practice for Statistics](https://code.statisticsauthority.gov.uk/): 
+
++ suitable data sources 
+
++ sound methods 
+
++ assured quality
+
+
+
+<br> 
+
+The question bank has also been designed to be consistent with, and is encouraged to be used alongside [the Administrative Data Quality Framework (ADQF)](https://analysisfunction.civilservice.gov.uk/policy-store/quality-of-administrative-data-in-statistics/). The question bank consists of:
+
++ an explanation of what it is and how it can be used 
+
++ examples of questions, organised by theme and sub-theme  
+
++ description of the themes the questions are organised into, including definitions where appropriate 
+
+
+
+
+<br>
+
+
+## What are administrative data in statistics and research? 
+
+
+Administrative data are data which have been collected during the operations of an organisation. Government produces a large amount of administrative data, which can provide a valuable resource in the production of statistics. Administrative data must be accessed securely and via legal gateways. Their use represents an opportunity for analysts, however, it is important to remember that the subjects of the data must be protected from misuse. This question bank does not support you with making decisions about access to data, however, this is something you need to consider. Your organisation will have data protection policies, such as [these data protection guidelines from the ONS](https://www.ons.gov.uk/aboutus/transparencyandgovernance/dataprotection). If you have questions, you should contact your Data Protection Officer.
+
+ 
+
+Administrative data are collected for operational purposes and not statistical purposes. This can lead to challenges when using it for statistics, a summary of which can be found in David Hand’s paper, [“Statistical challenges of administrative and transaction data”](https://rss.onlinelibrary.wiley.com/doi/10.1111/rssa.12315).  
+
+<br>
