@@ -1,0 +1,42 @@
+---
+title: "Accessibility and planned developments"
+output:
+  html_document:
+    css: "question_bank.css"
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+```{r global-options, include=FALSE}
+# Set echo=false for all chunks
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+---
+
+### Accessibility
+
+This is an early version of the question bank; we welcome any feedback on accessibility to inform the next stages of development. If you find any problems, please contact us by emailing methods.research@ons.gov.uk. Please also get in touch if you are unable to access any part of this question bank or require the content in a different format. We will consider your request and aim to get back to you within five working days. 
+
+
+Current accessibility features include: 
+
+* Font is arial size 12 minimum. 
+* You can navigate the question bank using a keyboard – up and down arrow keys to scroll up and down, tab to highlight the different sections at the top, and enter to select them. 
+* Text can be read aloud to you (in Microsoft Edge browser) by right clicking and selecting “read aloud”. 
+* You can change colours, contrast levels, and font: in Microsoft Edge with “Immersive Reader” feature (right click and select “Immersive Reader”), in Google Chrome with style sheet (right click and select “Inspect”). 
+* You can zoom in up to 300% without the text spilling off the screen in Microsoft Edge’s “Immersive Reader” (right click and select “Immersive Reader”).
+
+<br>
+<br>
+
+### Feedback to this question bank
+
+ If you have thoughts or preferences on how the question bank is structured and how we include questions, please email methods.research@ons.gov.uk to provide feedback. 
+
+<br>

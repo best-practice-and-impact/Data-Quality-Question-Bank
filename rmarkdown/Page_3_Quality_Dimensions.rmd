@@ -1,0 +1,893 @@
+---
+title: "Quality dimensions"
+output:
+  html_document:
+    css: "question_bank.css"
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+```{r global-options, include=FALSE}
+# Set echo=false for all chunks
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+---
+
+This question bank includes data quality themes as defined by the Data Management Association UK (DAMA) dimensions outlined in [The Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework#Data-quality-dimensions). These dimensions and definitions used are the same as those outlined in our [Administrative Data Quality Framework (ADQF)](https://analysisfunction.civilservice.gov.uk/policy-store/quality-of-administrative-data-in-statistics/). The dimensions covered are: 
+
++ accuracy 
+
++ validity  
+
++ completeness  
+
++ uniqueness 
+
++ consistency 
+
++ timeliness
+
+We have used these because they were developed by experts in data quality to assess the fitness for purpose of data. Finding which dimensions are important for you will help you make decisions around how fit for purpose the data are for your needs. 
+
+In future publications of this question bank, we intend to include questions based on relevant selected principles from the [European Statistics Code of Practice](https://ec.europa.eu/eurostat/web/quality/european-quality-standards/european-statistics-code-of-practice). The principles covered will be:
+
++ relevance: coverage, content, purpose and collection  
+
++ accessibility and clarity: accessing the data, data format, availability of supporting information, quality and sufficiency of metadata, illustrations and accompanying advice  
+
+Before going into the questions for each data quality dimension, we have provided some general questions for you, which can be used to ensure that you have a fundamental understanding of the data and its’ quality.  
+
+
+<br>
+
+
+## Questions to ask to gain insights into the data's quality in general 
+
+
+
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+
+</tr>
+
+ <tr>
+  <td align="center">  Q1  </td>
+  <td> How are the data from this dataset collected? For example, through public contact with services over the phone, registration forms, etc. </td>
+ </tr>
+ 
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q2  </td>
+  <td> What organisation(s) collects the data? </td>
+ </tr>
+ 
+  <tr>
+  <td align="center">  Q3  </td>
+  <td> Are there different organisations which collect different data or variables in the dataset?  For example, where one organisation is responsible for collecting income-related data, and another organisation is responsible for collecting demographic data, and this data is combined to create one composite dataset </td>
+ </tr>
+ 
+  <tr>
+  <td align="center">  Q4  </td>
+  <td> If so, which data is collected by which organisation? </td>
+ </tr>
+
+  <tr>
+  <td align="center">  Q5  </td>
+  <td> Is the data collected differently?</td>
+ </tr>
+ 
+   <tr>
+  <td align="center">  Q6  </td>
+  <td> Does this have an impact on the quality? </td>
+ </tr>
+
+
+  <tr>
+  <td align="center">  Q7  </td>
+  <td> How do suppliers quality assure the data?</td>
+ </tr>  
+
+  
+  <tr>
+  <td align="center">  Q8  </td>
+  <td> Are there any known quality issues? </td>
+ </tr>  
+ 
+
+  <tr>
+  <td align="center">  Q9  </td>
+  <td> What thresholds have the suppliers put in place regarding the data's quality? For example, an acceptable number of duplicate records, or an acceptable amount of missing data. </td>
+ </tr>  
+
+  
+  <tr>
+  <td align="center">  Q10  </td>
+  <td> How is the quality for this dataset documented? </td>
+ </tr>  
+
+  
+  <tr>
+  <td align="center">  Q11  </td>
+  <td> Are there any supplementary documents related to the dataset that can be shared? For example, a data dictionary, a metadata list.  </td>
+ </tr>  
+
+  
+  <tr>
+  <td align="center">  Q12  </td>
+  <td> Are there training manuals related to the work that can be shared? For example, for coding, updating or maintaining the dataset. </td>
+ </tr> 
+ 
+  </table>
+
+
+<br>
+
+# Accuracy and Validity
+
+<br>
+
+## Accuracy and validity definition 
+
+Administrative data accuracy refers to how well the data match reality - do the data capture what you are trying to measure? 
+
+Valid data is defined as the extent to which the data conform to the expected format, type, and range. For example, an email address must have an ‘@’ symbol. 
+
+
+<br>
+<br>
+
+## Questions to ask to gain insights into accuracy of data  
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+
+</tr>
+
+ <tr>
+  <td align="center">  Q13  </td>
+  <td> How accurate are the supplied data? </td>
+ </tr>
+
+ <tr>
+  <td align="center">  Q14  </td>
+  <td> How well do the data meet the statistical use? </td>
+ </tr>  
+
+  <tr>
+  <td align="center">  Q15 </td>
+  <td> How accurate are the items, or variables in the supplied data?  </td>
+ </tr> 
+
+ <tr>
+  <td align="center">  Q16  </td>
+  <td> How accurate are the units, or records in the supplied data?  </td>
+ </tr> 
+  
+ <tr>
+  <td align="center">  Q17  </td>
+  <td> What are the accuracy issues in the supplied data? </td>
+ </tr> 
+  
+ <tr>
+  <td align="center">  Q18 </td>
+  <td> If there are accuracy issues, how are they identified? For example, through a formal auditing process, or an automatic flagging system.  </td>
+ </tr> 
+  
+ <tr>
+  <td align="center">  Q19  </td>
+  <td> What methods are implemented by the suppliers to prevent any accuracy issues? For example, checks built into the data collection instrument. </td>
+ </tr> 
+  
+ <tr>
+  <td align="center">  Q20  </td>
+  <td> If there are accuracy issues, how are they resolved by the suppliers? And to which variables and types of records? </td>
+ </tr> 
+  
+
+ <tr>
+  <td align="center">  Q21  </td>
+  <td> What data accuracy issues are not addressed?  </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q22  </td>
+  <td> Why are the issues not addressed? </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q23  </td>
+  <td> What happens to data accuracy issues that are not addressed? For example, logged or reported to a specific team.  </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q24  </td>
+  <td> How are users of the data informed about these data accuracy issues?  </td>
+ </tr>
+
+</table>
+ 
+ 
+<br>
+<br>
+
+
+
+### Invalid entry questions
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q25 </td>
+  <td>What are the types of invalid data entries in the data?  </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q26  </td>
+  <td> How many invalid entries are there in the data?  </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q27  </td>
+  <td>What variables have invalid data entries?  </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q28  </td>
+  <td> What types of records have invalid data entries? </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q29  </td>
+  <td>What methods are used to identify invalid data entries? </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q30  </td>
+  <td>What methods are used to resolve invalid data entries?  </td>
+ </tr>
+ 
+
+</table>
+
+<br>
+<br>
+
+
+### Error, typos or mistakes questions
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q31 </td>
+  <td>What kinds of errors, typos or mistakes, are there in the data? </td>
+ </tr>
+ 
+ </tr>
+ <tr>
+  <td align="center">  Q32 </td>
+  <td>Which variables have typos, errors or mistakes? </td>
+ </tr>
+ 
+ </tr>
+ <tr>
+  <td align="center">  Q33 </td>
+  <td>Which types of records have typos, errors or mistakes? </td>
+ </tr>
+ 
+ </tr>
+ <tr>
+  <td align="center">  Q34 </td>
+  <td>What are the causes of these errors, typos or mistakes in the data?</td>
+ </tr>
+ 
+ </tr>
+ <tr>
+  <td align="center">  Q35 </td>
+  <td>How are errors, typos or mistakes identified in the data? </td>
+ </tr>
+ 
+ </tr>
+ <tr>
+  <td align="center">  Q36 </td>
+  <td>How are errors, typos or mistakes in the data resolved?</td>
+ </tr>
+
+</table> 
+
+
+<br>
+<br>
+
+# Completeness and Uniqueness
+
+<br>
+
+## Completeness definition 
+ 
+Completeness describes the degree to which all values within each variable are present (or absent of blank, null or empty values). Completeness applies both at data item (variable) level, and unit (record) level. At a data item level, you may have an individual’s value missing, for example a date of birth, from their record within a dataset. Alternatively, at a unit level, a full record may be missing; that individual is missing from the dataset entirely. 
+
+
+Depending on the completeness of your data there may be under-coverage or over-coverage. Please see [the ‘Completeness’ section of the Administrative Data Quality Framework](https://best-practice-and-impact.github.io/admin-data-quality-stats/departments.html#completeness) for more information on over and under-coverage. 
+
+
+To assess completeness, you will need to identify how many items or records are missing versus present. This dimension is sometimes described in terms of “missingness” rather than “completeness”, but the quality issue is the same. Data are ‘complete’ when all the data required for your purposes are both present and available for use. This does not mean your data needs 100% of the fields to be complete, but that the values and units you need are present. A ‘complete’ dataset may still be inaccurate if it has values that are not correct. 
+
+
+<br>
+
+
+## Questions to ask to gain insights into completeness of data
+
+
+<br>
+<br>
+
+
+### Unit completeness questions
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q37 </td>
+  <td>How complete or incomplete are the data?  </td>
+ </tr>
+
+
+ <tr>
+  <td align="center">  Q38 </td>
+  <td>How many records in the data are considered complete, or to have good coverage?   </td>
+ </tr>
+ 
+
+
+  <tr>
+  <td align="center">  Q39 </td>
+  <td>What types of records need to be in the data to be considered complete?  </td>
+ </tr>
+
+
+  <tr>
+  <td align="center">  Q40 </td>
+  <td>What types of records are missing from the data where they should be included? </td>
+ </tr>
+ 
+ 
+  <tr>
+  <td align="center">  Q41 </td>
+  <td>Why are they missing?  </td>
+ </tr>
+
+ 
+
+ <tr>
+  <td align="center">  Q42 </td>
+  <td>What types of records are included in the data where they should not be?  </td>
+ </tr>
+ 
+ <tr>
+  <td align="center">  Q43 </td>
+  <td>Why are these included?  </td>
+ </tr>
+
+ 
+ <tr>
+  <td align="center">  Q44 </td>
+  <td>How are records missing from the data identified as missing?  </td>
+ </tr>
+
+ <tr>
+  <td align="center">  Q45 </td>
+  <td>How are records missing in the data resolved?  </td>
+ </tr>
+ 
+ 
+ <tr>
+  <td align="center">  Q46 </td>
+  <td>How are records that are wrongly included in the data, identified? </td>
+ </tr>
+
+ 
+ <tr>
+  <td align="center">  Q47 </td>
+  <td>How are records, that are wrongly included in the data, resolved?  </td>
+ </tr>
+
+
+ <tr>
+  <td align="center">  Q48 </td>
+  <td>Unit imputation is when missing data are replaced with a record or unit.  Are any records in the data supplied, imputed records? </td>
+ </tr>
+ 
+ 
+ <tr>
+  <td align="center">  Q49 </td>
+  <td>Why are these records imputed?  </td>
+ </tr>
+
+ <tr>
+  <td align="center">  Q50 </td>
+  <td>How are they imputed? </td>
+ </tr>
+ 
+
+ <tr>
+  <td align="center">  Q51 </td>
+  <td>What changes have been made to exclusion and inclusion criteria in the data over time? For example, due to policy changes. </td>
+ </tr>
+ 
+</table>
+
+
+<br>
+<br>
+
+### Item completeness questions
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q52 </td>
+  <td> Which variables or values have missing data?  </td>
+ </tr>
+
+ <tr>
+  <td align="center">  Q53 </td>
+  <td>If there are missing data in variables or values, are there any particular types of records that have data within variables or values missing?  </td>
+ </tr> 
+
+
+  <tr>
+  <td align="center">  Q54 </td>
+  <td> How are missing data within variables or values identified? </td>
+ </tr>
+ 
+
+ <tr>
+  <td align="center">  Q55 </td>
+  <td> How are missing data within variables or values resolved?</td>
+ </tr> 
+ 
+
+ <tr>
+  <td align="center">  Q56 </td>
+  <td>How are data, variables or values that are wrongly included in the dataset, identified?  </td>
+ </tr> 
+
+
+  <tr>
+  <td align="center">  Q57 </td>
+  <td> How are data, variables or values that are wrongly included in the dataset, resolved?</td>
+ </tr>
+ 
+
+  <tr>
+  <td align="center">  Q58 </td>
+  <td>Item imputation is when missing data are replaced with a value or variable. Which variables, or values in the data are imputed? </td>
+ </tr>
+ 
+ 
+ <tr>
+  <td align="center">  Q59 </td>
+  <td>Why are these variables, or values imputed?  </td>
+ </tr>
+
+
+  <tr>
+  <td align="center">  Q60 </td>
+  <td>How are they imputed? </td>
+ </tr>
+ 
+</table>
+ 
+<br>
+<br>
+
+
+## Uniqueness definition
+
+Uniqueness describes the degree to which there is no duplication in records. This means that the data contains only one record for each entity it represents, and each value is stored only once. 
+
+ 
+Data are unique if it appears only once in a dataset. A record can be a duplicate even if it has some fields that are different. For example, a person may have two patient records with matching information in some fields (for example, name and date of birth) but may have different addresses and contact numbers in each record, therefore they are treated as two separate people. Depending on what you are using the data for, this may or may not be a uniqueness issue. If you want to know the total number of visits for every patient, this is not a problem. However, if you want to know how many patients you have on your roster, you could be counting the same person twice. As such, it is important to take uniqueness into account and into context when assessing the quality for and when combining datasets as it can impact the coverage of the data. 
+
+<br>
+<br>
+
+
+## Questions to ask to gain insights into uniqueness of data
+
+<br>
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q61 </td>
+  <td>How often, do identical records appear in the data more than once? </td>
+ </tr>
+
+ 
+
+ 
+ <tr>
+  <td align="center">  Q62 </td>
+  <td>Should there or shouldn’t there be records appearing more than once in the data? </td>
+ </tr>
+ 
+
+ 
+ <tr>
+  <td align="center">  Q63 </td>
+  <td>If records appear more than once, what, is the reason?  </td>
+ </tr>
+
+
+ 
+ <tr>
+  <td align="center">  Q64 </td>
+  <td> How unique are the records in the data? </td>
+ </tr>
+
+
+ 
+ <tr>
+  <td align="center">  Q65 </td>
+  <td> What type of records appear in the data more than once? </td>
+ </tr>
+ 
+
+ 
+ <tr>
+  <td align="center">  Q66 </td>
+  <td>What does each row in the dataset represent?  </td>
+ </tr>
+  
+
+ 
+ <tr>
+  <td align="center">  Q67 </td>
+  <td>How is each unique record identified? For example, a record ID number. </td>
+ </tr>
+   
+
+ 
+ <tr>
+  <td align="center">  Q68 </td>
+  <td> What measures are carried out to prevent records appearing more than once in the data during data collection?  </td>
+ </tr>
+
+
+ 
+ <tr>
+  <td align="center">  Q69 </td>
+  <td>What measures are carried out to prevent records appearing more than once in the data during data processing?  </td>
+ </tr>
+
+
+ 
+ <tr>
+  <td align="center">  Q70 </td>
+  <td>How are records that appear more than once in the data identified? </td>
+ </tr>
+ 
+
+ 
+ <tr>
+  <td align="center">  Q71 </td>
+  <td> What do duplicate records look like in the data?</td>
+ </tr>
+ 
+
+ 
+ <tr>
+  <td align="center">  Q72 </td>
+  <td>How are records that appear more than once in the data resolved? </td>
+ </tr>
+ 
+
+ </table>
+
+
+<br>
+<br>
+
+
+
+# Consistency and Timeliness
+
+<br>
+
+## Consistency definition
+
+Consistency is achieved when data values do not conflict with other values within a dataset or across different datasets. For example, date of birth for the same person should be recorded as the same date within the same dataset and between datasets. It should also match the age recorded for that person. Their postcode should also not conflict with their address, etc.  Another example may be where two people who are each others’ spouses, should both have the same marital status recorded.  
+
+<br>
+<br>
+
+
+## Questions to ask to gain insights into consistency of data
+
+<br>
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q73 </td>
+  <td>How consistent, are the data between variables?</td>
+ </tr>
+ 
+
+ <tr>
+  <td align="center">  Q74 </td>
+  <td>Which variables, have inconsistent information? What is the reason for this?</td>
+ </tr>
+
+
+<tr>
+  <td align="center">  Q75 </td>
+  <td>Which types of records, if any, have inconsistent information?</td>
+ </tr> 
+ 
+
+<tr>
+  <td align="center">  Q76 </td>
+  <td>What is the reason for this? </td>
+ </tr> 
+
+
+<tr>
+  <td align="center">  Q77 </td>
+  <td>If you have a composite dataset (dataset compiled from different sources), how consistent, are the data across the different sources?</td>
+ </tr> 
+ 
+
+<tr>
+  <td align="center">  Q78 </td>
+  <td>How consistent, are the data over time? </td>
+ </tr> 
+
+
+<tr>
+  <td align="center">  Q79 </td>
+  <td>Have there been any changes to the way the data are collected over time?</td>
+ </tr>
+ 
+
+<tr>
+  <td align="center">  Q80 </td>
+  <td>What changes have there been to the variables over time? For example, changes to definition.</td>
+ </tr>
+ 
+
+<tr>
+  <td align="center">  Q81 </td>
+  <td>Which variables, if any, were changed? </td>
+ </tr>  
+
+
+<tr>
+  <td align="center">  Q82 </td>
+  <td>What is used to measure consistency or identify inconsistencies in the supplied data?</td>
+ </tr> 
+ 
+
+<tr>
+  <td align="center">  Q83 </td>
+  <td>What aspects of the data are checked for consistency? Such as, all data items, certain variables, certain time points.</td>
+ </tr> 
+  
+
+<tr>
+  <td align="center">  Q84 </td>
+  <td>How are inconsistencies in the data resolved?</td>
+ </tr> 
+ 
+</table>
+
+<br>
+<br>
+
+## Timeliness definition
+
+Timeliness refers to how well the data reflect the period they are supposed to represent. It also describes how up to date the data are. 
+
+ 
+The attributes represented in some data might stay the same over time – e.g., the day you were born does not change, no matter how much time passes. Other attributes, such as income, may change. 
+
+ 
+Your data are also ‘timely’ if the lag between their collection and their availability for your use is appropriate for your needs. Are the data available when expected and needed? Do they reflect the time they are supposed to? 
+
+<br>
+<br>
+
+## Questions to ask to gain insights into timeliness of data
+
+<br>
+
+<table class="simpleTable">
+<TR VALIGN=TOP>
+    <th scope = "col"style="width: 8%;">   </th>
+    <th scope = "col"> </th>
+    
+</tr>
+ <tr>
+  <td align="center">  Q85 </td>
+  <td>When are the data collected? For example, constantly or over a certain timeframe?</td>
+ </tr>
+ 
+
+ <tr>
+  <td align="center">  Q86 </td>
+  <td>Up to date refers to whether the data supplied is the latest version. For example, if there are new data being collected, but is not reflected in the current data, then the data are not up to date.</td>
+ </tr>
+ 
+
+ <tr>
+  <td align="center">  Q87 </td>
+  <td>How up to date are the data at the point of it being supplied?</td>
+ </tr>
+ 
+
+<tr>
+  <td align="center">  Q88 </td>
+  <td>What can impact how up to date the data are?</td>
+ </tr>
+  
+
+<tr>
+  <td align="center">  Q89 </td>
+  <td>Reference dates refer to timestamps which indicate when the data have been changed. Are there any reference dates for each record?</td>
+ </tr>
+  
+
+<tr>
+  <td align="center">  Q90 </td>
+  <td>At what point of the data collection phase are reference dates produced? For example, when the data are collected, or when the data were last updated. </td>
+ </tr> 
+
+
+<tr>
+  <td align="center">  Q91 </td>
+  <td>How up to date, are the variables at the point of it being supplied?</td>
+ </tr>
+  
+
+ <tr>
+  <td align="center">  Q92 </td>
+  <td>Which types of records, do not have up to date information in these variables? </td>
+ </tr>
+
+<tr>
+  <td align="center">  Q93 </td>
+  <td>What methods are used to check that the data are up to date?</td>
+ </tr>
+  
+
+ <tr>
+  <td align="center">  Q94 </td>
+  <td>What methods are carried out to resolve data if they are not up to date?</td>
+ </tr>
+ 
+
+<tr>
+  <td align="center">  Q95 </td>
+  <td>How often are the data updated? </td>
+ </tr> 
+
+
+<tr>
+  <td align="center">  Q96 </td>
+  <td>What information is updated?</td>
+ </tr> 
+  
+
+<tr>
+  <td align="center">  Q97 </td>
+  <td>Are there any time lags between the reference dates in the data and the date in which the data are supplied?</td>
+ </tr> 
+ 
+
+<tr>
+  <td align="center">  Q98 </td>
+  <td>What are the different processes by which new records are added?</td>
+ </tr> 
+  
+
+<tr>
+  <td align="center">  Q99 </td>
+  <td>How often, are existing records within the data updated with new information?</td>
+ </tr>
+ 
+
+<tr>
+  <td align="center">  Q100 </td>
+  <td>What are the different processes by which existing records are updated with new information? </td>
+ </tr> 
+
+
+ <tr>
+  <td align="center">  Q101</td>
+  <td>What are the different processes by which variables or values are updated with new information? </td>
+ </tr>
+
+
+<tr>
+  <td align="center">  Q102</td>
+  <td>How often are the data updated to remove records from the data?</td>
+ </tr> 
+   
+
+<tr>
+  <td align="center">  Q103 </td>
+  <td>Under what circumstances are records removed from the data?</td>
+ </tr>
+   
+
+<tr>
+  <td align="center">  Q104 </td>
+  <td>What are the different processes by which unwanted records are removed?</td>
+ </tr>
+ 
+
+<tr>
+  <td align="center">  Q105 </td>
+  <td>When records meet the criteria for removal, how long would it typically take for the record to be deleted from the data supplied? </td>
+ </tr>
+ 
+
+<tr>
+  <td align="center">  Q106 </td>
+  <td>How often, are existing records within the data, updated to correct for any errors?</td>
+ </tr>
+   
+
+ <tr>
+  <td align="center">  Q107 </td>
+  <td>How often, are variables within records, updated to correct for any errors? </td>
+ </tr>
+
+
+<tr>
+  <td align="center">  Q108 </td>
+  <td>What are the different processes by which existing records are updated to correct for any errors?</td>
+ </tr>
+ 
+
+</table>
+
+<br>
